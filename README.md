@@ -29,3 +29,9 @@ Implemented using python packages :-
   python3 main.py
   ```
 
+### Scalability Options (for future referance)
+
+1. Option for downloading playlists
+2. Choices for resolution of videos to download(720p, 1080p etc)
+3. Choices for file format of videos to download(.mp3, .mp4 etc)
+
