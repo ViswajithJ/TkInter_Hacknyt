@@ -32,7 +32,7 @@ def display_info(yt_video_info):
     ]
     for row in rows:
         search_on_click = Label(
-            frame2, text=row, bg='black', fg='green', font=('calibri', 17))
+            frame2, text=row, bg='black', fg='green', font=('calibri', 14))
         search_on_click.place(relx=0, rely=i/8)
         i += 1
 
