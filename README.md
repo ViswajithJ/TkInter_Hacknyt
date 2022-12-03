@@ -12,9 +12,9 @@ Implemented using python packages :-
   
   [+] YouTube
 
-  Executables will be updated soon.
+  #### Executables will be updated soon.
 
-  To run the app, follow the steps:-
+  #####To run the app, follow the steps:-
 
   1. Clone the repository.
   ```
@@ -29,7 +29,7 @@ Implemented using python packages :-
   python3 main.py
   ```
 
-### Scalability Options (for future referance)
+### Scalability Options (for future reference)
 
 1. Option for downloading playlists
 2. Choices for resolution of videos to download(720p, 1080p etc)
