@@ -14,7 +14,7 @@ Implemented using python packages :-
 
   #### Executables will be updated soon.
 
-  #####To run the app, follow the steps:-
+  ##### To run the app, follow the steps:-
 
   1. Clone the repository.
   ```
