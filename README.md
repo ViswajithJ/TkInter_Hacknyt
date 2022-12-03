@@ -2,6 +2,9 @@ TinkerHub Saturday-Hacknight - A Tkinter Project
 
 ----------------------YouTube Video Downloader----------------------
 
-A basic GUI desktop application for downloading YouTube videos, given its link.
+A basic GUI application for downloading YouTube videos, given its link.
 
-Implemented using python packages namely, tkinter, pytube and, YouTube. 
+Implemented using python packages :-
+  [+] tkinter
+  [+] pytube
+  [+] YouTube
