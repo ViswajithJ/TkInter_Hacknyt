@@ -1,4 +1,4 @@
-# TinkerHub Saturday-Hacknight - A Tkinter Project
+# YouTube Video Downloader - A Tkinter Project
 
 ## ----------------------YouTube Video Downloader----------------------
 
