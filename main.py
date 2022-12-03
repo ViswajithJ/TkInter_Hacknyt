@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
 from tkinter import filedialog
-import pytube
 from pytube import YouTube
 from pytube import exceptions
 
@@ -10,7 +9,6 @@ from pytube import exceptions
 
 # to get vid stream of highest res, info about video, return in list
 def get_vid_stream_data(link):
-    print("Inside get_vid_stream_data")
     yt_obj = YouTube(link)
     title = yt_obj.title
     channel = yt_obj.author
@@ -20,7 +18,6 @@ def get_vid_stream_data(link):
     size = round(vid_stream.filesize*0.000001, 2)
     res = vid_stream.__getattribute__("resolution")
     yt_video_info = [vid_stream, title, channel, length, size, res]
-    print("got the video stream")
     return yt_video_info
 
 
@@ -55,7 +52,6 @@ def search_video():
     link = search_entry.get()
     if (link != ''):
         try:
-            print("inside try")
             yt_video_info = get_vid_stream_data(link)
             display_info(yt_video_info)
 
@@ -74,10 +70,11 @@ def search_video():
                 "Youtube Video Downloader", err)
     else:
         messagebox.showwarning("Youtube Video Downloader", "Enter a url")
-    print("hi")
 
 
-# main program
+''' Main Program '''
+
+
 window = Tk()
 window.title("Youtube Video Downloader")
 
