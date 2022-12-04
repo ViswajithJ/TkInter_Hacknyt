@@ -15,6 +15,8 @@ Implemented using python packages :-
   #### Executables will be updated soon.
 
   ##### To run the app, follow the steps:-
+  
+  Note:- python, pip and git should be preinstalled
 
   1. Clone the repository.
   ```
@@ -24,9 +26,13 @@ Implemented using python packages :-
   ```
   pip install -r requirements.txt
   ```
-  3. Run main.py using python3
+  3. Run main.py using python
   ```
   python3 main.py
+  ```
+  or 
+  ```
+  python main.py
   ```
 
 ### Scalability Options (for future reference)
