@@ -38,17 +38,18 @@ def display_info(yt_video_info):
 
 
 def download_video(vid_stream):
-    path = filedialog.askdirectory()
-    if path != '':
+    path = tuple(filedialog.askdirectory())
+    if (path != ()):
+        path = "".join(path)
         try:
             vid_stream.download(path)
             messagebox.showinfo("Youtube Video Downloader",
                                 "Downloaded successfully")
         except:
-            messagebox.showerror("Youtube Video Downloader", "An error occured.")
+            messagebox.showerror(
+                "Youtube Video Downloader", "An error occured.")
     else:
         messagebox.showinfo("Youtube Video Downloader", "Cancelled")
-
 
 
 # on clicking search_btn
